@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* עיצוב מסגרת הטלפון למרכז המסך */
+.phone-frame {
+  width: 100%;
+  max-width: 390px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #F8FAFC;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E2E8F0; /* רקע אפור מסביב למכשיר */
+  font-family: 'Assistant', system-ui, -apple-system, sans-serif;
+}
